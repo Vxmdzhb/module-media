@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace AstrX\Controller;
+namespace AstrX\Media\Controller;
 
 use AstrX\Http\Request;
 use AstrX\Media\MediaConfig;
@@ -9,6 +9,7 @@ use AstrX\Media\MediaRepository;
 use AstrX\Result\DiagnosticsCollector;
 use AstrX\Result\Result;
 use AstrX\Routing\CurrentUrl;
+use AstrX\Kernel\AbstractController;
 
 /**
  * Raw media-file endpoint — no template wrapping (page template=0).
