@@ -228,7 +228,7 @@ final class MediaService
     /**
      * Public URL to the media-file route for a stored name.
      *
-     * SECURITY (R9): built sid-FREE, deliberately NOT through UrlGenerator. In
+     * SECURITY: built sid-FREE, deliberately NOT through UrlGenerator. In
      * cookieless mode UrlGenerator injects the CURRENT session id into every URL —
      * but this URL is the copy-to-embed snippet, designed to be pasted into a
      * public content page body and PERSISTED. A sid here would bake the admin's
