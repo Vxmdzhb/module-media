@@ -2,6 +2,8 @@
 
 Uploaded media manager with image validation and re-encoding — the **Media** module of [AstrX](https://github.com/Vxmdzhb/astrx).
 
+![The media library](docs/screenshot.png)
+
 - Module key: `media` (switch it on in the site's `resources/config/Modules.config.php`)
 - Pages: `admin_media`, `media_file`
 - Requires: `astrx/cms`, `astrx/framework`, `astrx/library`
