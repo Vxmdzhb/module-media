@@ -6,7 +6,7 @@ Uploaded media manager with image validation and re-encoding — the **Media** m
 
 - Module key: `media` (switch it on in the site's `resources/config/Modules.config.php`)
 - Pages: `admin_media`, `media_file`
-- Requires: `astrx/cms`, `astrx/framework`, `astrx/library`
+- Requires: `astrx/auth`, `astrx/cms`, `astrx/config`, `astrx/csrf`, `astrx/http`, `astrx/i18n`, `astrx/image`, `astrx/kernel`, `astrx/module`, `astrx/result`, `astrx/routing`, `astrx/session`, `astrx/support`, `astrx/template`
 
 It ships its own templates, catalogs (en, it), default configuration and SQL in
 `resources/`; the site overrides any of them from its own `resources/`.
@@ -21,9 +21,27 @@ Composer where to find the package and the AstrX packages it depends on:
     "prefer-stable": true,
     "repositories": [
         { "type": "vcs", "url": "https://github.com/Vxmdzhb/module-media" },
-        { "type": "vcs", "url": "https://github.com/Vxmdzhb/cms" },
-        { "type": "vcs", "url": "https://github.com/Vxmdzhb/framework" },
-        { "type": "vcs", "url": "https://github.com/Vxmdzhb/library" }
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/result" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/support" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/config" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/auth" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/api" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/http" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/i18n" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/session" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/kernel" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/routing" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/template" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/captcha" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/csrf" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/error-handler" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/identicon" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/image" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/mail" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/injector" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/module" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/pagination" },
+        { "type": "vcs", "url": "https://github.com/Vxmdzhb/cms" }
     ]
 }
 ```
